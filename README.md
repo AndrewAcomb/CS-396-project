@@ -13,74 +13,44 @@ https://xkcd.com/1138/
 
 Cleaned Dataset Info:
 
-Observations: 2854 (number of counties we have data for)
+Observations: 2845 (number of counties we have data for)
 Features: 54 (listed below)
+
+—Primary Key—
+FIPS (Federal Information Processing Standard number, e.g, 60037)
 
 —County Info—
 
-FIPS (e.g, 60037)
-CountyName (e.g, ‘Los Angeles’)
-StateName (e.g, ‘California’)
-StateAbbreviation (e.g, ‘CA’)
-MetroArea (e.g, ‘Los Angeles-Long Beach-Anaheim’)
-SizeRank (e.g, 1)
+County (Name of county, e.g, ‘Los Angeles’)
+Metro (Metro area of county, e.g, ‘Los Angeles-Long Beach-Anaheim’)
+SizeRank (Size rank of county, e.g, 1)
+State (State abbreviation of county, e.g, ‘CA’)
+StateName (State name of county, e.g, ‘California’)
 
 —COVID cases from January 2020 (\_01) to December 2020 (\_12)—
 
-cases_01
-cases_02
-cases_03
-cases_04
-cases_05
-cases_06
-cases_07
-cases_08
-cases_09
-cases_10
-cases_11
-cases_12
+01_cases
+02_cases
+…
+12_cases
 
 —COVID deaths from January 2020 (\_01) to December 2020 (\_12)—
 
-deaths_01
-deaths_02
-deaths_03
-deaths_04
-deaths_05
-deaths_06
-deaths_07
-deaths_08
-deaths_09
-deaths_10
-deaths_11
-deaths_12
+01_deaths
+02_deaths
+…
+12_deaths
 
 —Top tier Zillow Home Value Index (ZHVI) from January 2020 (\_01) to December 2020 (\_12)—
 
-prices_top_tier_01
-prices_top_tier_02
-prices_top_tier_03
-prices_top_tier_04
-prices_top_tier_05
-prices_top_tier_06
-prices_top_tier_07
-prices_top_tier_08
-prices_top_tier_09
-prices_top_tier_10
-prices_top_tier_11
-prices_top_tier_12
+01_ZHVI_Top
+02_ZHVI_Top
+…
+12_ZHVI_Top
 
 —Bottom tier Zillow Home Value Index (ZHVI) from January 2020 (\_01) to December 2020 (\_12)—
 
-prices_bottom_tier_01
-prices_bottom_tier_02
-prices_bottom_tier_03
-prices_bottom_tier_04
-prices_bottom_tier_05
-prices_bottom_tier_06
-prices_bottom_tier_07
-prices_bottom_tier_08
-prices_bottom_tier_09
-prices_bottom_tier_10
-prices_bottom_tier_11
-prices_bottom_tier_12
+01_ZHVI_Bot
+02_ZHVI_Bot
+…
+12_ZHVI_Bot
